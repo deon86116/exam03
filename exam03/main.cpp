@@ -142,7 +142,7 @@ void publish1(float v){
             printf("rc:  %d\r\n", rc);
             printf("Puslish message: %s\r\n", buff);
             client.yield(10);
-            wait(0.5);
+            wait(0.001);
 
       }
    }
